@@ -46,5 +46,12 @@ public class Main {
             System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей");
             savings = savings + 29000;
         }
+        System.out.println("Example9");
+        int bankSavings = 29000;
+        for(int month = 1; month <= 12; month++)
+        {
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + bankSavings + " рублей");
+            bankSavings = bankSavings + 29000 + (bankSavings/100);
+        }
     }
 }
