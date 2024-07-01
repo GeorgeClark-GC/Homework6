@@ -10,5 +10,15 @@ public class Main {
         {
             System.out.println(a);
         }
+        System.out.println("Example3");
+        for(int b = 0; b <= 17; b = b + 2)
+        {
+             if (b>0) {
+                 System.out.println(b);
+             }
+             //Поставил условие "если", поскольку 0 не является четным числом, а без
+             //этого условия в консоль он выводится.
+        }
+
     }
 }
