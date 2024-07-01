@@ -29,5 +29,10 @@ public class Main {
         {
             System.out.println(year + " год является високосным");
         }
+        System.out.println("Example6");
+        for(int number = 7; number <= 98; number = number + 7)
+        {
+            System.out.println(number);
+        }
     }
 }
