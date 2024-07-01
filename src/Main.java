@@ -39,5 +39,12 @@ public class Main {
         {
             System.out.println(numberBinary);
         }
+        System.out.println("Example8");
+        int savings = 29000;
+        for(int month = 1; month <= 12; month++)
+        {
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей");
+            savings = savings + 29000;
+        }
     }
 }
