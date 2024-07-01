@@ -34,5 +34,10 @@ public class Main {
         {
             System.out.println(number);
         }
+        System.out.println("Example7");
+        for(int numberBinary = 1; numberBinary <= 512; numberBinary = numberBinary * 2)
+        {
+            System.out.println(numberBinary);
+        }
     }
 }
