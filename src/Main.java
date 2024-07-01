@@ -53,5 +53,13 @@ public class Main {
             System.out.println("Месяц " + month + ", сумма накоплений равна " + bankSavings + " рублей");
             bankSavings = bankSavings + 29000 + (bankSavings/100);
         }
+        System.out.println("Example10");
+        int count = 2;
+        int summ = 0;
+        for(int multiplier = 1; multiplier <= 10; multiplier++)
+        {
+            summ = count * multiplier;
+            System.out.println(count + "*" + multiplier + "=" + summ);
+        }
     }
 }
