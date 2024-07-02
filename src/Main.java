@@ -13,11 +13,7 @@ public class Main {
         System.out.println("Example3");
         for(int b = 0; b <= 17; b = b + 2)
         {
-             if (b>0) {
                  System.out.println(b);
-             }
-             //Поставил условие "если", поскольку 0 не является четным числом, а без
-             //этого условия в консоль он выводится.
         }
         System.out.println("Example4");
         for(int c = 10; c >= -10; c--)
@@ -51,7 +47,8 @@ public class Main {
         for(int month = 1; month <= 12; month++)
         {
             System.out.println("Месяц " + month + ", сумма накоплений равна " + bankSavings + " рублей");
-            bankSavings = bankSavings + 29000 + (bankSavings/100);
+            bankSavings = bankSavings + 29000;
+            bankSavings = bankSavings + (bankSavings/100);
         }
         System.out.println("Example10");
         int count = 2;
